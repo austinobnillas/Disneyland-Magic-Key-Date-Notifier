@@ -5,6 +5,8 @@ class Settings(BaseSettings):
     DB_PASSWORD: str
     DB_HOST: str
     DB_NAME: str
+    SECRET_KEY: str
+    JWT_ALGORITHM: str
     CHECK_INTERVAL_MINUTES: int = 30
 
     @property
