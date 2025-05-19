@@ -7,6 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from core.check_dates import compare_dates
 
 magic_keys = ["inspire-key-pass", "beleive-key-pass", "enchant-key-pass", "imagine-key-pass"]
 
@@ -113,5 +114,7 @@ def check_reservations(keys):
     for key in keys:
         print(f"Starting scraping process for {key}...")
         availability_data = fetch_all_dates(key)
+        compare_dates(availability_data, key)
+
         print(f"Scraping completed. Data collected for {key}: {availability_data}")
     # return availability_data
