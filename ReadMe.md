@@ -1,6 +1,10 @@
 # Disneyland Magic Key Reservation Checker V2 (in development)
 
-As a disney fan and current magic key holder I know how bothersome it can be to get reservations to the parks in California on the exact day you want, especially as they sell out. Having to refresh the reservation calendar is not plausible so I decided to make a coding portfolio project that uses web scraping to check for me and notify me when I can go in and book a particular date. This code is just a prototype to test and check how the general web scraping logic will work, will be adding to a larger application with a full front end and back end with user authentication. This app will not be published and is more of just a personal project/concept. 
+As a Disney fan and current Magic Key holder, I know how frustrating it can be to secure park reservations for the exact dates you want—especially since they often sell out quickly. Constantly refreshing the reservation calendar isn’t practical, so I built this prototype project to automate that process.
+
+This project uses web scraping with Selenium to monitor Disneyland’s Magic Key reservation calendar and notify me when specific dates become available. It’s designed as a proof of concept to test the scraping logic and reservation checking workflow.
+
+This app is still a work in progress. Currently, it functions as a standalone prototype without a full frontend. The plan is to continue developing it into a larger application with a complete backend and frontend system. This project remains a personal coding portfolio piece and is not intended for public release.
 
 ## Features:
 - **Selectable Dates**: Select pass type and day to watch for.
